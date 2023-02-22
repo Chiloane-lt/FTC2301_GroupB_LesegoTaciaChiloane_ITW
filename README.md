@@ -2,7 +2,7 @@
 
 Contains projects created for the Intro To Web course for CodeSpace.
 
-##Inside
+## Folders Inside:
 
-1. Resumé 1
-2. Resumé 2
+  ### intro-to-Web
+    1. my-digital-resume >> Web page files for my professional digital resume.  
