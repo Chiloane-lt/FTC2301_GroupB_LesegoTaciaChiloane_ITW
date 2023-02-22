@@ -4,5 +4,5 @@ Contains projects created for the Intro To Web course for CodeSpace.
 
 ## Folders Inside:
 
-  ### intro-to-Web
-    1. my-digital-resume >> Web page files for my professional digital resume.  
+  ### 1. FTC2301_GroupB_LesegoTaciaChiloane_ITW
+ A project to create a digital resume in stages using HTML. This folder contains images and html files for all the project stages. 
