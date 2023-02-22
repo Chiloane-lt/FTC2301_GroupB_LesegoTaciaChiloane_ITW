@@ -1,6 +1,6 @@
 # codespace-projects
 
-Contains projects created for the Intro To Web course for CodeSpace.
+Contains projects created for the Software Development program by CodeSpace.
 
 ## Folders Inside:
 
