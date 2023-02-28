@@ -5,6 +5,12 @@
   font-size: 110%;
 }
 
+agi {
+  color: #9cb0a3;
+  text-decoration: none;
+  /* Above removes underline from links. */
+}
+
 img {
   border-radius: 50%; /*Changes border to rounded*/
 }
@@ -20,6 +26,8 @@ img {
 
 nav {
   text-align: center;
+  background-color: #2a4e3a;
+  
 }
 
 #experience {
@@ -27,5 +35,13 @@ nav {
 }
 
 .experience {
+  background-color: #2a4e3a;
+}
+
+#projects {
+  background-color: #2a4e3a;
+}
+
+.projects {
   background-color: #2a4e3a;
 }
