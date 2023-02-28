@@ -1,8 +1,31 @@
-* {background-color: #26513E;
-    color: #e1e4d5;
-    font-family: fantasy;
-    font-size: 110%;}
+* {
+  background-color: #1f2722;
+  color: white;
+  font-family: sans-serif;
+  font-size: 110%;
+}
+
 img {
-    border-radius: 50%;
-  }
-  /*#banner {background-image: url("images/web-design-banner.jpg");}*/
+  border-radius: 50%; /*Changes border to rounded*/
+}
+
+.banner {
+  background-image: url("images/Banner-(4).jpg");
+  text-align: center;
+}
+
+#intro {
+  background: transparent;
+}
+
+nav {
+  text-align: center;
+}
+
+#experience {
+  background-color: #2a4e3a;
+}
+
+.experience {
+  background-color: #2a4e3a;
+}
