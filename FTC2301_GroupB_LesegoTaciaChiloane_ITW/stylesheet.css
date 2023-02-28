@@ -1,0 +1,11 @@
+* {background-color: #26513E;
+    color: #e1e4d5;
+    font-family: fantasy;
+    font-size: 110%;}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+  #banner {background-image: url("images/web-design-banner.jpg");}
