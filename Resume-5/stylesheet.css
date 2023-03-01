@@ -3,6 +3,7 @@
   color: white;
   font-family: sans-serif;
   font-size: 110%;
+  margin
 }
 
 a {
@@ -41,6 +42,14 @@ nav {
 }
 
 article {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h3 {
+  padding-top: 10px;
+}
+
+h2 {
+  padding-top: 30px;
 }
