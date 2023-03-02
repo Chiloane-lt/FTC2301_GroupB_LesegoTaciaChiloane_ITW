@@ -1,55 +1,8 @@
-* {
-  background-color: #1f2722;
-  color: white;
-  font-family: sans-serif;
-  font-size: 110%;
-  margin
+.container {
+  display: flex;
 }
-
-a {
-  color: #9cb0a3;
-  text-decoration: none;
-  /*Above removes underline from links.*/
-}
-
-img {
-  border-style: ridge;
-  border-radius: 50%; /*Changes border to rounded.*/
-}
-
-.banner {
-  background-image: url("images/Banner-(4).jpg");
-  text-align: center;
-}
-
-#intro {
-  background: transparent;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-nav {
-  text-align: center;
-  background-color: #2a4e3a;
-  padding: 15px;
-  
-}
-
-#navigation {
-  background-color: #2a4e3a;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-article {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-h3 {
-  padding-top: 10px;
-}
-
-h2 {
-  padding-top: 30px;
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
 }
