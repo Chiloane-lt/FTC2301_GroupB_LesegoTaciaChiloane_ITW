@@ -1,7 +1,7 @@
 * {
   top: 0;
   left: 0;
-  font-family: 'Golos Text', sans-serif;
+  font-family: "Golos Text", sans-serif;
   font-size: 110%;
   color: white;
 }
@@ -45,7 +45,6 @@ nav {
 }
 /* End of main */
 
-
 /* Controls top of page */
 .top-content {
   display: flex;
@@ -81,4 +80,11 @@ footer {
   background-color: #2a4e3a;
   margin-top: 0;
   justify-self: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  padding: 50px; 
 }
