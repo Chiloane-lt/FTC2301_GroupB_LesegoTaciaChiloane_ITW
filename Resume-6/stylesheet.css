@@ -51,6 +51,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-image: url(images/Banner-5.jpg);
 }
 
 #intro {
