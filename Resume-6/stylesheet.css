@@ -1,7 +1,7 @@
 * {
   top: 0;
   left: 0;
-  font-family: sans-serif;
+  font-family: 'Golos Text', sans-serif;
   font-size: 110%;
   color: white;
 }
@@ -80,4 +80,5 @@ button {
 footer {
   background-color: #2a4e3a;
   margin-top: 0;
+  justify-self: center;
 }
