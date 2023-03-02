@@ -8,6 +8,7 @@
 .container {
   display: flex;
 }
+
 /* Vertical header */
 .header {
   background-color: #5e5e5e;
@@ -16,7 +17,6 @@
   width: 600px;
   height: 700px;
   position: sticky;
-  
 }
 
 nav {
@@ -30,18 +30,27 @@ nav {
 #nav-bar {
   margin: 10px;
 }
-
 /* End of vertical header */
+
 
 /* Controls top of page */
 .top-content {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+}
+
+#intro {
+  background-color: #BBBBBB;
+  text-align: center;
+  height: max-content;
+  align-self: center;
 }
 
 img {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
 }
+/* End of top of page */
