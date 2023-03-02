@@ -1,25 +1,32 @@
+* {
+  top: 0;
+  left: 0;
+}
+
 .container {
   display: flex;
 }
 /* Vertical header */
 .header {
-  background-color: #5E5E5E;
+  background-color: #5e5e5e;
   width: 200px;
   height: 500px;
-  position: fixed;
-  top: 0;
+  position: sticky;
+  display: flex;
 }
 
 nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  height: 500px;
+  /* The following changes the orientation of the links. */
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
 }
 
 /* End of vertical header */
-
-
-
-
 
 /* Controls top of page */
 .top-content {
@@ -33,5 +40,3 @@ img {
   height: 500px;
   border-radius: 50%;
 }
-
-
