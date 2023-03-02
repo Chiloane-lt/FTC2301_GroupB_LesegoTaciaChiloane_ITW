@@ -38,18 +38,6 @@ nav {
 }
 /* End of vertical header */
 
-/* Controls main content */
-.main {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#codespace {
-  text-decoration: none;
-  color: #2a4e3a;
-}
-/* End of main */
-
 /* Controls top of page */
 .top-content {
   display: flex;
@@ -85,6 +73,14 @@ button {
   border-radius: 1em;
 }
 /* End of top of page */
+
+/* Controls main content */
+.main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* End of main */
+
 
 footer {
   background-color: #2a4e3a;
