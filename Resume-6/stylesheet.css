@@ -1,12 +1,19 @@
 .container {
   display: flex;
 }
-.box {
-  width: 500px;
-  height: 500px;
-  border: 1px solid black;
+/* Vertical header */
+.header {
+  background-color: #5E5E5E;
+  width: 150px;
 }
 
+/* End of vertical header */
+
+
+
+
+
+/* Controls top of page */
 .top-content {
   display: flex;
   flex-direction: row;
@@ -18,3 +25,5 @@ img {
   height: 200px;
   border-radius: 50%;
 }
+
+
