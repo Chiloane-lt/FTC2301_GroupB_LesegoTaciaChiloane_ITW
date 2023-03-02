@@ -79,12 +79,18 @@ button {
 footer {
   background-color: #2a4e3a;
   margin-top: 0;
-  justify-self: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-container {
+.social-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   font-size: small;
-  padding: 50px; 
+  padding: 20px; 
+}
+
+.copyright {
+  font-weight: lighter;
+  font-size: 12px;
 }
