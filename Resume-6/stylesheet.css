@@ -4,7 +4,12 @@
 /* Vertical header */
 .header {
   background-color: #5E5E5E;
-  width: 150px;
+  width: 200px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
 }
 
 /* End of vertical header */
@@ -21,8 +26,8 @@
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
 }
 
