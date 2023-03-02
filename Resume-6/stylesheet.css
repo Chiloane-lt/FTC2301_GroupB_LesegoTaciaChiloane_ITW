@@ -43,6 +43,11 @@ nav {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+#codespace {
+  text-decoration: none;
+  color: #2a4e3a;
+}
 /* End of main */
 
 /* Controls top of page */
@@ -51,6 +56,11 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   background-image: url(images/Banner-5.jpg);
+}
+
+#name {
+  font-size: 40px;
+  margin: -10px;
 }
 
 #intro {
