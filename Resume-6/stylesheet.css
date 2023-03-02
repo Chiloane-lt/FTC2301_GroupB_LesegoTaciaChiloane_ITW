@@ -25,6 +25,9 @@ nav {
   writing-mode: vertical-lr;
   text-orientation: mixed;
 }
+#nav-bar {
+  margin: 10px;
+}
 
 /* End of vertical header */
 
