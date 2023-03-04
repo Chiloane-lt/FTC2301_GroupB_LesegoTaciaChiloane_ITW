@@ -16,7 +16,8 @@ main {
 .navbar {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  margin: 0px;
+  padding: 0px;
 }
 
 nav {
@@ -35,6 +36,12 @@ i.fa-sharp {
   width: 7rem;
   height: 7rem;
   justify-self: center;
+  background-color: white;
+}
+#names {
+  background-color: white;
+  font-size: 20%;
+  padding: 1rem;
 }
 
 #mepic {
@@ -44,6 +51,7 @@ i.fa-sharp {
   border-style: solid;
   border-color: #ECE5F0;
   border-width: 0.1rem;
+  background-color: white;
 }
 /* End of navigation bar */
 
@@ -56,7 +64,7 @@ i.fa-sharp {
   text-align: center;
 }
 
-#cv-title {
+#resume-title {
   padding-bottom: 1rem;
 }
 
