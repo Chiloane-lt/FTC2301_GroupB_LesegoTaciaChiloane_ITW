@@ -25,6 +25,7 @@ nav {
     border-style: solid;
   border-color: #ECE5F0;
   border-width: 0.1rem;
+  text-align: center;
 }
 
 i.fa-sharp {
@@ -52,7 +53,9 @@ i.fa-sharp {
   background-color: white;
   color: #012622;
   padding: 5rem;
+  text-align: center;
 }
+
 /* End of content */
 
 
