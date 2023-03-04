@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+}
+html  {
+  background-color: #ECE5F0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 12%;
+}
+
+/* Navigation bar rules */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+    border-style: solid;
+  border-color: #ECE5F0;
+  border-width: 0.1rem;
+}
+
+i.fa-sharp {
+  font-size: 300%;
+  color: #012622;
+  padding: 1rem;
+  width: 7rem;
+  height: 7rem;
+  justify-self: center;
+}
+
+#mepic {
+  padding: 1rem;
+  width: 7rem;
+  height: 7rem;
+  border-style: solid;
+  border-color: #ECE5F0;
+  border-width: 0.1rem;
+}
+/* End of navigation bar */
+
+
+/* Rules for content */
+.content {
+  background-color: white;
+  color: #012622;
+  padding: 5rem;
+}
+/* End of content */
+
+
+/* Rules for social bar */
+.socials {
+  list-style: none;
+}
+
+#copyright {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
+i.fa-brands {
+  font-size: 130%;
+  color: #012622;
+  padding: 0;
+}
+/* End of social bar */
