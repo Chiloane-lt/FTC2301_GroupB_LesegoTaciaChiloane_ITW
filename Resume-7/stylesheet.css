@@ -96,18 +96,31 @@ h3 {
 
 
 /* Rules for social bar */
-.socials {
+ul.socials {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0;
 }
 
 #copyright {
   writing-mode: vertical-lr;
   text-orientation: mixed;
+  background-color: #012622;
+  color: white;
 }
 
 i.fa-brands {
-  font-size: 130%;
+  font-size: 125%;
   color: #012622;
-  padding: 0;
+  background-color: #E98A15;
+}
+
+i.fa-brands, #copyright {
+  border-style: solid;
+  border-color: #ECE5F0;
+  border-width: 0.1rem;
+  padding: 0.5rem;
 }
 /* End of social bar */
