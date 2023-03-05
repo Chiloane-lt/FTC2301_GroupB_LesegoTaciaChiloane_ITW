@@ -61,10 +61,12 @@ i.fa-sharp, #mepic {
 
 h1.resume-title {
   font-size: 5em;
+  margin-bottom: -0.1em;
 }
 
 h4.resume-title {
   color: #548970;
+  font-weight: lighter;
 }
 
 h2 {
