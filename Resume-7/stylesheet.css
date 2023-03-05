@@ -1,5 +1,7 @@
 * {
   margin: 0px;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 html  {
   background-color: #ECE5F0;
@@ -38,6 +40,17 @@ i.fa-sharp, #mepic {
   border-color: #ECE5F0;
   border-width: 0.1rem;
 }
+
+#name {
+  font-weight: 400;
+  font-size: 100%;
+  text-align: center;
+  background-color: #012622;
+  color: white;
+  padding: 0.5em;
+  
+}
+
 #names {
   background-color: white;
   font-size: 20%;
