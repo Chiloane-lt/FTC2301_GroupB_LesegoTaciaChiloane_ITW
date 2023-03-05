@@ -23,13 +23,10 @@ main {
 nav {
   display: flex;
   flex-direction: column;
-    border-style: solid;
-  border-color: #ECE5F0;
-  border-width: 0.1rem;
   text-align: center;
 }
 
-i.fa-sharp {
+i.fa-sharp, #mepic {
   font-size: 300%;
   color: #012622;
   padding: 1rem;
@@ -37,21 +34,14 @@ i.fa-sharp {
   height: 7rem;
   justify-self: center;
   background-color: white;
+  border-style: solid;
+  border-color: #ECE5F0;
+  border-width: 0.1rem;
 }
 #names {
   background-color: white;
   font-size: 20%;
   padding: 1rem;
-}
-
-#mepic {
-  padding: 1rem;
-  width: 7rem;
-  height: 7rem;
-  border-style: solid;
-  border-color: #ECE5F0;
-  border-width: 0.1rem;
-  background-color: white;
 }
 /* End of navigation bar */
 
