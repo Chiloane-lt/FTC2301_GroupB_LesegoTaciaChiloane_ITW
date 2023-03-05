@@ -1,7 +1,5 @@
 * {
   margin: 0px;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Raleway', sans-serif;
 }
 html  {
   background-color: #ECE5F0;
@@ -28,6 +26,11 @@ nav {
   text-align: center;
 }
 
+.special-font, h1.resume-title, .content {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+
 i.fa-sharp, #mepic {
   font-size: 300%;
   color: #012622;
@@ -48,6 +51,9 @@ i.fa-sharp, #mepic {
   background-color: #012622;
   color: white;
   padding: 0.5em;
+  padding: 0.5em;
+  
+  padding: 0.5em;  
   
 }
 
@@ -67,19 +73,15 @@ i.fa-sharp, #mepic {
   text-align: center;
 }
 
-.resume-title {
-  margin-bottom: 2.5rem;
-  font-size: 2em;
-}
-
 h1.resume-title {
-  font-size: 5em;
-  margin-bottom: -0.1em;
+  font-size: 4.5em;
 }
 
 h4.resume-title {
   color: #548970;
   font-weight: lighter;
+  margin-bottom: 2.5rem;
+  font-size: 2em;
 }
 
 h2 {
