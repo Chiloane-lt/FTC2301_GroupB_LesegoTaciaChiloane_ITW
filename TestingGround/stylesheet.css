@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Minimize negative effects of adding margins & padding later */
+}
+
+nav {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    background-color: lime;
+}
+
+.content {
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+    height: 100%;
+    margin-left: 200px;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.p1 {
+    background-color: brown;
+}
+.p2 {
+    background-color: burlywood;
+}
+.p3 {
+    background-color: lavender;
+}
+.p4 {
+    background-color: skyblue;
+}
