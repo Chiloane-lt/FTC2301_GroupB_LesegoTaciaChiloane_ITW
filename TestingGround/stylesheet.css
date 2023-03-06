@@ -9,24 +9,22 @@ nav {
     height: 100vh;
     width: 200px;
     position: fixed;
-    background-color: #79865B;
+    background-color: #0B0B0B;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: 100%;
+    color: #ACAE89;
 }
 
-i.fa-sharp {
-    font-size: 100%;
-    color: #012622;
-    padding: 1rem;
-    width: 7rem;
-    height: 7rem;
-    justify-self: center;
-  }
+#names {
+    padding: 20%;
+}
 
 .content {
-    scroll-snap-type: y mandatory;
-    overflow-y: auto;
     height: 100%;
     margin-left: 200px;
 }
@@ -43,7 +41,21 @@ i.fa-sharp {
 
 .about {
     background-image: url(images/Banner-000.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: white;
+    padding-left: 50%;
 }
+
+button {
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 2.5px 10px;
+    border-radius: 1em;
+  }
+
 .education {
     background-color:  #ACAE89;
     display: flex;
@@ -59,16 +71,24 @@ i.fa-sharp {
     flex-direction: column;
 }
 .projects {
-    background-color: #012611;
+    background-color: #79865B;
     display: flex;
     flex-direction: column;
 }
 .experience {
-    background-color: #96A257;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
+.contact {
+    background-color: #96A257;
+    display: flex;
+}
 
-h2 {
+.in-form {
+    padding: 2%;
+}
+
+#section-title {
     padding: 2rem;
 }

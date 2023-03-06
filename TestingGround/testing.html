@@ -16,37 +16,32 @@
   <body>
     <nav>
       <div>
-        <i class="fa-sharp fa-solid fa-user">
-          <p id="names">About</p>
-        </i>
+        <p id="names">About</p>
+        <p id="names">Education</p>
       </div>
       <div>
-        <i class="fa-sharp fa-solid fa-book">
-          <p id="names">Education</p>
-        </i>
+        <p id="names">Skills</p>
+        <p id="names">Experience</p>
       </div>
       <div>
-        <i class="fa-sharp fa-solid fa-wrench">
-          <p id="names">Skills</p>
-        </i>
-      </div>
-      <div>
-        <i class="fa-sharp fa-solid fa-briefcase">
-          <p id="names">Experience</p>
-        </i>
-      </div>
-      <div>
-        <i class="fa-sharp fa-regular fa-folder-open">
-          <p id="names">Projects</p>
-        </i>
+        <p id="names">Projects</p>
+        <p id="names">Contact</p>
       </div>
     </nav>
     <div class="content">
       <section class="page about">
-        <h1>Page 1</h1>
+        <h1>Lesego T. Chiloane</h1>
+        <h2>Software Developer</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate
+          ut pharetra sit amet aliquam id diam maecenas ultricies. Elementum
+          curabitur vitae nunc sed velit dignissim sodales ut.
+        </p>
+        <button type="button">Contact</button>
       </section>
       <section class="page education">
-        <h2 id="education">Education</h2>
+        <h2 id="section-title">Education</h2>
         <h3>
           Intro to Web at
           <a href="https://www.codespace.co.za/" target="_blank" id="codespace"
@@ -70,7 +65,7 @@
         </p>
       </section>
       <section class="page skills">
-        <h2 id="skills">Skills</h2>
+        <h2 id="section-title">Skills</h2>
         <ul>
           <li>HTML5</li>
           <li>CSS/Bootstrap</li>
@@ -79,7 +74,7 @@
         </ul>
       </section>
       <section class="page projects">
-        <h2 id="projects">Projects</h2>
+        <h2 id="section-title">Projects</h2>
         <ul>
           <li>Link to thing 1</li>
           <li>Link to thing 2</li>
@@ -88,7 +83,7 @@
         </ul>
       </section>
       <section class="page experience">
-        <h2 id="experience">Experience</h2>
+        <h2 id="section-title">Experience</h2>
         <h3>Job 1</h3>
         <ul>
           <li>A sentence about the responsibilities of the job.</li>
@@ -103,6 +98,32 @@
           <li>A sentence about the responsibilities of the job.</li>
           <li>A sentence about the responsibilities of the job.</li>
         </ul>
+      </section>
+      <section class="page contact">
+        <h2>Contact</h2>
+        <form action="https://formsubmit.co/lestachil@gmail.com" method="POST">
+          <div class="in-form">
+            <label for="name">Full name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="in-form">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="in-form">
+            <label for="message"></label>
+            <textarea
+              name="message_content"
+              id="message"
+              placeholder="Type your message here."
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </form>
+        <div>
+            <p>Socials go here...</p>
+        </div>
       </section>
     </div>
   </body>
