@@ -34,8 +34,10 @@ i.fa-sharp {
 .page {
     height: 100vh;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    padding-left: 4%;
+    padding-right: 3%;
 }
 
 
@@ -46,6 +48,10 @@ i.fa-sharp {
     background-color:  #ACAE89;
     display: flex;
     flex-direction: column;
+}
+
+.education-content {
+    justify-content: center;
 }
 .skills {
     background-color: #2E533B;
