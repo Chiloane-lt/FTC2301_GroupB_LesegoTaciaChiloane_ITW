@@ -48,14 +48,17 @@ nav {
     align-items: end;
     color: white;
     padding-left: 50%;
+    font-size: 160%;
+    text-align: end;
 }
 
 button {
     border: none;
     color: black;
     background-color: white;
-    padding: 2.5px 10px;
+    padding: 3px 13px;
     border-radius: 1em;
+    font-size: 2rem;
   }
 
 .education {
