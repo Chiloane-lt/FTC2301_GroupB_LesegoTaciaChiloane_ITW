@@ -1,6 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     /* Minimize negative effects of adding margins & padding later */
 }
