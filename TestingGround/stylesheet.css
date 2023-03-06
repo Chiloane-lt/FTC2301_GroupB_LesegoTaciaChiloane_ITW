@@ -36,12 +36,11 @@ i.fa-sharp {
     display: flex;
     justify-content: start;
     align-items: center;
-    scroll-snap-align: start;
 }
 
 
 .about {
-    background-color: palevioletred;
+    background-image: url(images/Banner-000.jpg);
 }
 .education {
     background-color: brown;
