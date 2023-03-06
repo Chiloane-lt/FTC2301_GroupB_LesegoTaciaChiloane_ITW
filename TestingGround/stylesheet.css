@@ -34,7 +34,7 @@ i.fa-sharp {
 .page {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     scroll-snap-align: start;
 }
@@ -45,13 +45,21 @@ i.fa-sharp {
 }
 .education {
     background-color: brown;
+    display: flex;
+    flex-direction: column;
 }
 .skills {
     background-color: burlywood;
+    display: flex;
+    flex-direction: column;
 }
 .projects {
     background-color: lavender;
+    display: flex;
+    flex-direction: column;
 }
 .experience {
     background-color: skyblue;
+    display: flex;
+    flex-direction: column;
 }
