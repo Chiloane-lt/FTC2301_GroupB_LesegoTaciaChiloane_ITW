@@ -1,126 +1,99 @@
 * {
-  margin: 0px;
-}
-html  {
-  background-color: #ECE5F0;
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 12%;
-}
-
-/* Navigation bar rules */
-.navbar {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    /* Minimize negative effects of adding margins & padding later */
 }
 
 nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.special-font, h1.resume-title, .content {
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Raleway', sans-serif;
-}
-
-i.fa-sharp, #mepic {
-  font-size: 300%;
-  color: #012622;
-  padding: 1rem;
-  width: 7rem;
-  height: 7rem;
-  justify-self: center;
-  background-color: white;
-  border-style: solid;
-  border-color: #ECE5F0;
-  border-width: 0.1rem;
-}
-
-#name {
-  font-weight: 400;
-  font-size: 100%;
-  text-align: center;
-  background-color: #012622;
-  color: white;
-  padding: 0.5em;
-  padding: 0.5em;
-  
-  padding: 0.5em;  
-  
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    background-color: #0B0B0B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: 100%;
+    color: #ACAE89;
 }
 
 #names {
-  background-color: white;
-  font-size: 20%;
-  padding: 1rem;
+    padding: 20%;
 }
-/* End of navigation bar */
 
-
-/* Rules for content */
 .content {
-  background-color: white;
-  color: #012622;
-  padding: 5rem;
-  text-align: center;
+    height: 100%;
+    margin-left: 200px;
 }
 
-h1.resume-title {
-  font-size: 4.5em;
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 3%;
 }
 
-h4.resume-title {
-  color: #548970;
-  font-weight: lighter;
-  margin-bottom: 2.5rem;
-  font-size: 2em;
+
+.about {
+    background-image: url(images/Banner-000.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: white;
+    padding-left: 50%;
+    font-size: 160%;
+    text-align: end;
 }
 
-h2 {
-  margin: 3rem;
+button {
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 3px 13px;
+    border-radius: 1em;
+    font-size: 2rem;
+  }
+
+.education {
+    background-color:  #ACAE89;
+    display: flex;
+    flex-direction: column;
 }
 
-h3 {
-  margin: 1rem;
+.education-content {
+    justify-content: center;
+}
+.skills {
+    background-color: #2E533B;
+    display: flex;
+    flex-direction: column;
+}
+.projects {
+    background-color: #79865B;
+    display: flex;
+    flex-direction: column;
+}
+.experience {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    background-color: #96A257;
+    display: flex;
 }
 
-/* End of content */
-
-
-/* Rules for social bar */
-ul.socials {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  padding: 0;
+.in-form {
+    padding: 2%;
 }
 
-#copyright {
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-  background-color: #012622;
-  color: white;
+#section-title {
+    padding: 2rem;
 }
-
-i.fa-brands {
-  font-size: 125%;
-  color: #012622;
-  background-color: #E98A15;
-}
-
-i.fa-brands, #copyright {
-  border-style: solid;
-  border-color: #ECE5F0;
-  border-width: 0.1rem;
-  padding: 0.5rem;
-}
-/* End of social bar */
