@@ -68,3 +68,7 @@ i.fa-sharp {
     display: flex;
     flex-direction: column;
 }
+
+h2 {
+    padding: 2rem;
+}
