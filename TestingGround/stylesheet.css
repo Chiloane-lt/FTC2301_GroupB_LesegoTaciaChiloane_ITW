@@ -27,15 +27,19 @@ nav {
     scroll-snap-align: start;
 }
 
-.p1 {
+
+.about {
+    background-color: palevioletred;
+}
+.education {
     background-color: brown;
 }
-.p2 {
+.skills {
     background-color: burlywood;
 }
-.p3 {
+.projects {
     background-color: lavender;
 }
-.p4 {
+.experience {
     background-color: skyblue;
 }

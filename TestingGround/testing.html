@@ -7,28 +7,105 @@
     <meta name="Author" content="Lesego T. Chiloane">
     <meta name="Description" content="Simple resume using CSS & HTML5">
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script
+      src="https://kit.fontawesome.com/0b821e41f3.js"
+      crossorigin="anonymous"
+    ></script>
     <title>ChiloaneLT Resume</title>
 </head>
 <body>
     <nav>
-        <ul>
-            <li>LinkedIn</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-        </ul>
+        <div>
+            <i class="fa-sharp fa-solid fa-user">
+              <p id="names">About</p>
+            </i>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-book">
+              <p id="names">Education</p>
+            </i>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-wrench">
+              <p id="names">Skills</p>
+            </i>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-briefcase">
+              <p id="names">Experience</p>
+            </i>
+          </div>
+          <div>
+            <i class="fa-sharp fa-regular fa-folder-open">
+              <p id="names">Projects</p>
+            </i>
+          </div>
     </nav>
     <div class="content">
-        <section class="page p1">
+        <section class="page about">
             <h1>Page 1</h1>
         </section>
-        <section class="page p2">
-            <h1>Page 2</h1>
+        <section class="page education">
+            <h2 id="education">Education</h2>
+          <h3>
+            Intro to Web at
+            <a
+              href="https://www.codespace.co.za/"
+              target="_blank"
+              id="codespace"
+              >CodeSpace Academy</a
+            >
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus
+            sed vulputate odio ut enim blandit volutpat. Tortor dignissim
+            convallis aenean et. Feugiat in fermentum posuere urna nec. Non
+            tellus orci ac auctor augue.
+          </p>
+          <h3>Qualification 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus
+            sed vulputate odio ut enim blandit volutpat. Tortor dignissim
+            convallis aenean et. Feugiat in fermentum posuere urna nec. Non
+            tellus orci ac auctor augue.
+          </p>
         </section>
-        <section class="page p3">
-            <h1>Page 3</h1>
+        <section class="page skills">
+            <h2 id="skills">Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS/Bootstrap</li>
+            <li>R Programming</li>
+            <li>C</li>
+          </ul>
         </section>
-        <section class="page p4">
-            <h1>Page 4</h1>
+        <section class="page projects">
+            <h2 id="projects">Projects</h2>
+          <ul>
+            <li>Link to thing 1</li>
+            <li>Link to thing 2</li>
+            <li>Link to thing 3</li>
+            <li>Link to thing 4</li>
+          </ul>
+        </section>
+        <section class="page experience">
+            <h2 id="experience">Experience</h2>
+          <h3>Job 1</h3>
+          <ul>
+            <li>A sentence about the responsibilities of the job.</li>
+            <li>A sentence about the responsibilities of the job.</li>
+            <li>A sentence about the responsibilities of the job.</li>
+            <li>A sentence about the responsibilities of the job.</li>
+          </ul>
+          <h3>Job 2</h3>
+          <ul>
+            <li>A sentence about the responsibilities of the job.</li>
+            <li>A sentence about the responsibilities of the job.</li>
+            <li>A sentence about the responsibilities of the job.</li>
+            <li>A sentence about the responsibilities of the job.</li>
+          </ul>
         </section>
     </div>
 </body>
