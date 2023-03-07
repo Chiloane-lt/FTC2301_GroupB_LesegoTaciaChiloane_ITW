@@ -147,3 +147,20 @@ textarea {
 #section-title {
   padding: 2rem;
 }
+
+/* The following section covers content not on the LMS*/
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8e8f7b;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #131313;
+}
+
+
