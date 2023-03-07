@@ -97,15 +97,30 @@ button {
 .contact_form {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    border-style: solid;
+}
+
+.contact_data, textarea {
+    padding: 1em;
 }
 
 .socials {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10rem;
+    padding-left: 2rem;
+    text-align: right;
+    border-style: solid;
 }
 
 .fa-brands, .fa-sharp {
     color: #0B0B0B;
     font-size: 140%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 #section-title {
