@@ -7,8 +7,14 @@
   /* Minimize negative effects of adding margins & padding later */
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 a {
   text-decoration: none;
+  color: white;
 }
 
 nav {
@@ -22,19 +28,23 @@ nav {
   text-align: center;
   writing-mode: vertical-lr;
   text-orientation: upright;
-  font-size: 100%;
-  font-weight: bold;
   color: #acae89;
 }
 
-#names {
-  padding: 20%;
-  color: white;
+.names {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+a.names {
+    padding: 10%;
 }
 
 .content {
   height: 100%;
   margin-left: 200px;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 .page {
@@ -44,6 +54,7 @@ nav {
   align-items: center;
   padding-left: 4%;
   padding-right: 3%;
+  scroll-snap-align: start;
 }
 
 .about {
