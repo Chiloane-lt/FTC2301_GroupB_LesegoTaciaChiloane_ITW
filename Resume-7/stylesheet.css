@@ -21,8 +21,9 @@ nav {
   align-items: center;
   text-align: center;
   writing-mode: vertical-lr;
-  text-orientation: mixed;
+  text-orientation: upright;
   font-size: 100%;
+  font-weight: bold;
   color: #acae89;
 }
 
@@ -103,6 +104,7 @@ button {
   flex-direction: column;
   padding: 1rem;
   border-style: solid;
+  border-width: 1px;
 }
 
 .contact_data,
@@ -119,6 +121,7 @@ textarea {
   padding-left: 2rem;
   text-align: right;
   border-style: solid;
+  border-width: 1px;
 }
 
 .fa-brands,
