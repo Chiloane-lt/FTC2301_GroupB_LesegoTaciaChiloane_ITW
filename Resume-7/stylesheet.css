@@ -88,10 +88,24 @@ button {
 .contact {
     background-color: #96A257;
     display: flex;
+    flex-direction: column;
+}
+.contact_info {
+    display: flex;
 }
 
-.in-form {
-    padding: 2%;
+.contact_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials {
+    background-color: white;
+}
+
+.fa-brands, .fa-sharp {
+    color: #0B0B0B;
+    font-size: 140%;
 }
 
 #section-title {
