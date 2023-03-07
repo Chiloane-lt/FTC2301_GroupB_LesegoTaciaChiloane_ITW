@@ -106,28 +106,29 @@
             <section class="contact_form">
               <form action="https://formsubmit.co/e9e548ac7b88c807f46f42129d00fe05" method="post">
                 <div class="contact_data">
-                  <label for="name">Name</label>
+                  <label for="name">Full Name</label>
                 <input type="text" name="name" id="name" required>
-                </div>
-                <div class="contact_data">
-                  <label for="email">Email</label>
+                <label for="email">Email</label>
                 <input type="email" name="email" id="email" required>
                 </div>
                 <div class="contact_data">
                   <label for="phone">Phone</label>
-                <input type="number" name="phone" id="phone" required>
-                </div>
-                <div class="contact_data">
-                  <label for="subject_email">
-                    <select name="subject_email" id="subject_email" required>
+                  <input type="number" name="phone" id="phone" required>
+                  <label for="subject_email">Role</label>
+                    <select name="role" id="role" required>
                       <option value="Recruiter">Recruiter</option>
                       <option value="Interview">Interview Opportunity</option>
                       <option value="Other">Other</option>
                     </select>
-                  </label>
                 </div>
-                <textarea name="message" id="message" placeholder="Type your message here." cols="30" rows="10" required></textarea> 
-                <button type="submit">Send Message</button>
+                <div class="contact_data">
+                  <label for="subject_email">Subject</label>
+                  <input type="text" required>                  
+                </div>
+                <textarea name="message" id="message" placeholder="Type your message here." cols="50" rows="10" required></textarea> 
+                <div>
+                  <button type="submit">Send Message</button>
+                </div>
               </form>
             </section>
             <section class="socials">
