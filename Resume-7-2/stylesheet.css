@@ -97,6 +97,10 @@ button {
   display: flex;
   flex-direction: column;
 }
+
+img {
+  object-fit: cover;
+}
 .experience {
   background-color: white;
   display: flex;
