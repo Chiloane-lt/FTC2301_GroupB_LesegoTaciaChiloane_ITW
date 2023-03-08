@@ -6,51 +6,41 @@
   box-sizing: border-box;
   /* Minimize negative effects of adding margins & padding later */
 }
-
-body {
-  width: 100vw;
-  height: 100vh;
-}
-
 a {
   text-decoration: none;
   color: white;
 }
 
-nav {
-  height: 100vh;
-  width: 200px;
+header {
   position: fixed;
-  background-color: #0b0b0b;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-  color: #acae89;
-  filter: drop-shadow(.75em .75em 1em black);
 }
 
-.names {
-  font-size: 100%;
+nav {
+  background-color: #0b0b0b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #acae89;
+}
+
+nav a {
+  font-size: 150%;
   font-weight: bold;
 }
 
 .content {
-  height: 100%;
-  margin-left: 200px;
+  height: 100vh;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
 }
 
 .page {
   height: 100vh;
+  scroll-snap-align: start;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-left: 4%;
-  padding-right: 3%;
-  scroll-snap-align: start;
+  align-items: center;  
 }
 
 .about {
@@ -59,7 +49,6 @@ nav {
   flex-direction: column;
   align-items: end;
   color: white;
-  padding-left: 48%;
   font-size: 160%;
   text-align: end;
 }
