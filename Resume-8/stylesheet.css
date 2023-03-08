@@ -71,8 +71,25 @@ nav {
   padding-top: .75rem;
 }
 
-.about h1 {
-  padding-top: 2rem;
+.typewriter {
+  display: inline-block;
+}
+
+.about div h1 {
+  padding: 2rem;
+  border-right: 5px solid;  
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0px;
+  animation: typing_animation;
+  animation-duration: 2s;
+  animation-timing-function: steps(18, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing_animation {
+  from {width: 0;}
+  to {width: 100%;}
 }
 
 .about p {
