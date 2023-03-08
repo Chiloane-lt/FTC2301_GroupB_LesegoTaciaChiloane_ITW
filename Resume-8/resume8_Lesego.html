@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Lesego T. Chiloane" />
+    <meta name="Description" content="Simple resume using CSS & HTML5" />
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/0b821e41f3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>ChiloaneLT Resume</title>
+  </head>
+  <body>
+    <nav>
+      <div class="names">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+      </div>
+      <div class="names">
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+      </div>
+      <div class="names">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="content">
+      <section class="page about" id="about">
+        <h1>Lesego T. Chiloane</h1>
+        <h2>Software Developer</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate
+          ut pharetra sit amet aliquam id diam maecenas ultricies. Elementum
+          curabitur vitae nunc sed velit dignissim sodales ut.
+        </p>
+        <a href="#contact">
+          <button type="button">Contact</button></a>        
+      </section>
+      <section class="page education" id="education">
+        <h2 id="section-title">Education</h2>
+        <h3>
+          Intro to Web at
+          <a href="https://www.codespace.co.za/" target="_blank" id="codespace"
+            >CodeSpace Academy</a
+          >
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed
+          vulputate odio ut enim blandit volutpat. Tortor dignissim convallis
+          aenean et. Feugiat in fermentum posuere urna nec. Non tellus orci ac
+          auctor augue.
+        </p>
+        <h3>Qualification 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus sed
+          vulputate odio ut enim blandit volutpat. Tortor dignissim convallis
+          aenean et. Feugiat in fermentum posuere urna nec. Non tellus orci ac
+          auctor augue.
+        </p>
+      </section>
+      <section class="page skills" id="skills">
+        <h2 id="section-title">Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS/Bootstrap</li>
+          <li>R Programming</li>
+          <li>C</li>
+        </ul>
+      </section>
+      <section class="page projects" id="projects">
+        <h2 id="section-title">Projects</h2>
+        <ul>
+          <li>Link to thing 1</li>
+          <li>Link to thing 2</li>
+          <li>Link to thing 3</li>
+          <li>Link to thing 4</li>
+        </ul>
+      </section>
+      <section class="page experience" id="experience">
+        <h2 id="section-title">Experience</h2>
+        <h3>Job 1</h3>
+        <ul>
+          <li>A sentence about the responsibilities of the job.</li>
+          <li>A sentence about the responsibilities of the job.</li>
+          <li>A sentence about the responsibilities of the job.</li>
+          <li>A sentence about the responsibilities of the job.</li>
+        </ul>
+        <h3>Job 2</h3>
+        <ul>
+          <li>A sentence about the responsibilities of the job.</li>
+          <li>A sentence about the responsibilities of the job.</li>
+          <li>A sentence about the responsibilities of the job.</li>
+          <li>A sentence about the responsibilities of the job.</li>
+        </ul>
+      </section>
+      <footer class="page contact" id="contact">
+        <h2>Contact</h2>
+          <div class="contact_info">
+            <section class="contact_form">
+              <form action="https://formsubmit.co/e9e548ac7b88c807f46f42129d00fe05" method="post">
+                <div class="contact_data">
+                  <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="First & last name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                </div>
+                <div class="contact_data">
+                  <label for="phone">Phone</label>
+                  <input type="number" name="phone" id="phone" required>
+                  <label for="subject_email">Role</label>
+                    <select name="role" id="role" required>
+                      <option value="Recruiter">Recruiter</option>
+                      <option value="Interview">Interview Opportunity</option>
+                      <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="contact_data">
+                  <label for="subject_email">Subject</label>
+                  <input type="text" name="_subject" required>                  
+                </div>
+                <textarea name="message" id="message" placeholder="Type your message here." cols="50" rows="10"></textarea> 
+                <div>
+                  <button type="submit">Send Message</button>
+                  <input type="hidden" name="_autoresponse" value="Thank you for your message. I will contact you soon.">
+                </div>
+              </form>
+            </section>
+            <section class="socials">
+              <div class="linkin">
+                <a href="https://www.linkedin.com/in/chiloane-lt" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+              <div class="github">
+                <a href="https://github.com/Chiloane-lt" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <div class="twitter">
+                <a href="https://twitter.com/AlwaysDahlia" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+              <div class="call">
+                <i class="fa-sharp fa-solid fa-mobile"></i>
+              </div>
+            </section>
+            </section>
+          </div>
+        </footer>
+    </div>
+  </body>
+</html>

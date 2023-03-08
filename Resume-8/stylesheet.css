@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  /* Minimize negative effects of adding margins & padding later */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  background-color: #0b0b0b;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: #acae89;
+  filter: drop-shadow(.75em .75em 1em black);
+}
+
+.names {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.content {
+  height: 100%;
+  margin-left: 200px;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4%;
+  padding-right: 3%;
+  scroll-snap-align: start;
+}
+
+.about {
+  background-image: url(images/markus-spiske-FXFz-unsplash1.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: white;
+  padding-left: 48%;
+  font-size: 160%;
+  text-align: end;
+}
+
+.about h2 {
+  font-size: 110%;
+  font-weight: lighter;
+  color: gray;
+  padding-top: .75rem;
+}
+
+.about h1 {
+  padding-top: 2rem;
+}
+
+.about p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+button {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 3px 13px;
+  border-radius: 1em;
+  font-size: 2rem;
+}
+
+.education {
+  background-color: #444939;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.education-content {
+  justify-content: center;
+}
+.skills {
+  background-color: #79865b;
+  display: flex;
+  flex-direction: column;
+}
+.projects {
+  background-color: #acae89; */
+  display: flex;
+  flex-direction: column;
+}
+.experience {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  background-color: #96a257;
+  display: flex;
+  flex-direction: column;
+}
+.contact_info {
+  display: flex;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.contact_data, textarea {
+  padding: 1em;
+}
+
+.socials {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10rem;
+  padding-left: 2rem;
+  text-align: right;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.fa-brands,
+.fa-sharp {
+  color: #0b0b0b;
+  font-size: 140%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#section-title {
+  padding: 2rem;
+}
+
+/* The following section covers content not on the LMS*/
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8e8f7b;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #131313;
+}
+
+
