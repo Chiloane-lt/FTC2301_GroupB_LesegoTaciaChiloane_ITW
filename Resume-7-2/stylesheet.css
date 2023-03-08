@@ -97,9 +97,14 @@ button {
   display: flex;
   flex-direction: column;
 }
+.projects_image {
+  flex: none;
+  background-color: #0b0b0b;
+}
 
 img {
   object-fit: cover;
+  height: 100vh;
 }
 .experience {
   background-color: white;
