@@ -76,20 +76,25 @@ nav {
 }
 
 .about div h1 {
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   border-right: 5px solid;  
   overflow: hidden;
   white-space: nowrap;
   width: 0px;
-  animation: typing_animation;
-  animation-duration: 2s;
-  animation-timing-function: steps(18, end);
-  animation-fill-mode: forwards;
+  animation: typing_animation 2.5s steps(18, end) forwards;
+  /* animation: cursor 1s linear infinite; */
 }
 
 @keyframes typing_animation {
   from {width: 0;}
   to {width: 100%;}
+}
+
+@keyframes cursor {
+  0% {border-width: 0px;}
+  50% {border-width: 5px;}
+  100% {border-width: 0px;}
 }
 
 .about p {
