@@ -83,13 +83,13 @@ nav {
   animation: typing_animation 2.5s steps(18, end) forwards;
 }
 
-.typewriter {
-  animation: cursor 1s linear 2.5s infinite;
-}
-
 @keyframes typing_animation {
   from {width: 0;}
   to {width: 100%;}
+}
+
+.typewriter {
+  animation: cursor 1s linear 2.5s infinite;
 }
 
 @keyframes cursor {
@@ -168,8 +168,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  border-style: solid;
-  border-width: 1px;
+  border-style: solid
 }
 
 .contact_data, textarea {
@@ -185,7 +184,6 @@ button {
   padding-left: 2rem;
   text-align: right;
   border-style: solid;
-  border-width: 1px;
 }
 
 .fa-brands,
@@ -216,3 +214,24 @@ button {
 }
 
 
+
+/* ----------------------------Mobile---------------------- */
+@media screen (max-width: 768px) {
+}
+
+
+/* ----------------------------Tablet---------------------- */
+@media screen (max-width: 1024px) {
+}
+
+/* ----------------------------Desktop---------------------- */
+@media screen (max-width: 1215px) {
+}
+
+/* ----------------------------Widescreen---------------------- */
+@media screen (max-width: 1400px) {
+}
+
+/* ----------------------------Full HD---------------------- */
+@media screen (min-width: 1401px) {
+}
