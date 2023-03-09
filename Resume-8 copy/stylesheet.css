@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  /* Minimize negative effects of adding margins & padding later */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  height: 100vh;
+  width: 20%;
+  position: fixed;
+  background-color: #0b0b0b;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: #acae89;
+  filter: drop-shadow(.75em .75em 1em black);
+}
+
+.names {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.names a:hover {
+  border: 1px solid rgb(74, 145, 74);
+  font-size: 125%;
+  box-shadow: 2px 2px 2px rgb(74, 145, 74);
+}
+
+.content {
+  height: 100%;
+  margin-left: 20%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4%;
+  padding-right: 3%;
+  scroll-snap-align: start;
+}
+
+.about {
+  background-image: url(images/markus-spiske-FXFz-unsplash1.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: white;
+  padding-left: 48%;
+  font-size: 160%;
+  text-align: end;
+}
+
+.typewriter {
+  display: inline-block;
+}
+
+.about div h1 {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  border-right: 5px solid;  
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0px;
+  animation: typing_animation 2.5s steps(18, end) forwards;
+  /* animation: cursor 1s linear infinite; */
+}
+
