@@ -275,15 +275,46 @@ button:hover {
       padding-top: 0.8rem;
     }
 }
-
-/* ----------------------------Desktop---------------------- */
-@media screen (max-width: 1215px) {
-}
-
-/* ----------------------------Widescreen---------------------- */
-@media screen (max-width: 1400px) {
-}
-
 /* ----------------------------Full HD---------------------- */
-@media screen (min-width: 1401px) {
+@media only screen and (max-width: 1440px){
+    /*Laptops, Desktops etc. [1200px -> 1440]*/
+
+  .about {
+    padding-left: 20%;
+  }
+  .about div h1 {
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .about h2 {
+    font-size: 2.5rem;
+  }
+  button {
+    font-size: 2.5rem;
+  }
+.about p {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .education, .skills, .experience, .projects {
+    text-align: center;
+  }
+}
+
+.names {
+      font-size: 140%;
+    }
+
+    .education, .skills, .experience, .projects {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    h3 {
+      padding-bottom: 0.8rem;
+      padding-top: 0.8rem;
+    }
 }
