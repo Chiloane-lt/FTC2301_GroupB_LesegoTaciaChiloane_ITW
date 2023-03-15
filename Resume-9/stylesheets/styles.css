@@ -8,6 +8,7 @@
     list-style: none;
     font-family: 'Raleway', sans-serif;
     color: #012622;
+    text-align: center;
 }
 
 body {
@@ -21,7 +22,6 @@ body {
 
 .navigation {
     background-color: white;
-    text-align: center;
     font-size: 115%;
     padding: 1rem .2rem;
     border: .1em solid #012622;
@@ -35,8 +35,6 @@ nav ul {
     display: grid;
     justify-content: center;
 }
-
-
 
 /* ---------------------------------CONTENT--------------------------- */
 
@@ -54,7 +52,6 @@ main {
     display: grid;
     align-items: center;
     font-size: 180%;
-    text-align: center;
 }
 
 .resume-title {
@@ -78,6 +75,10 @@ main {
     background-color: white;
 }
 
+.content-section {
+    margin: 5rem;
+}
+
 
 /* ----------------------------------FOOTER--------------------------- */
 footer {
@@ -85,17 +86,21 @@ footer {
     font-size: 200%;
 }
 
-footer ul li {
-    border: .1em solid #012622;
+.socials {
+    border: .1rem solid #012622;
+    background-color: #49E753;
 }
 
-footer ul li fa-brands {
-    font-size: 125%;
-  }
+.fa-brands {
+    font-size: 120%;
+}
 
 #copyright {
     writing-mode: vertical-lr;
     text-orientation: mixed;
+    color: white;
+    background-color: #012622;
+    border: .1rem solid #012622;
 }
 
 /* ---------------------------------SCROLL-BAR------------------------ */
