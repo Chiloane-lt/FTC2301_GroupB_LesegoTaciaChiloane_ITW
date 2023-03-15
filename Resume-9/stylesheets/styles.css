@@ -84,6 +84,33 @@ main {
     padding: 2rem;
 }
 
+/* Skills */
+
+.skills-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        'languages languages coding coding'
+        'lang-skills lang-skills coding-skills coding-skills'
+        'lang-skills lang-skills coding-skills coding-skills';
+}
+
+.languages {
+    grid-area: languages;
+}
+
+.coding {
+    grid-area: coding;
+}
+
+.lang-skills {
+    grid-area: lang-skills;
+}
+
+.coding-skills {
+    grid-area: coding-skills;
+}
 
 /* ----------------------------------FOOTER--------------------------- */
 footer {
@@ -124,3 +151,12 @@ footer {
     background: #49E753;
     border-radius: 1rem;
   }
+
+/* --------------------------------GRID-MODIFIERS-------------------- */
+.span-2-col {
+    grid-column: span 2;
+}
+
+.span-2-row {
+    grid-row: span 2;
+}
