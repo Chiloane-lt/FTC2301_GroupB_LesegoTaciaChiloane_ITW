@@ -37,7 +37,7 @@ main {
 
 .side {
     overflow-x: hidden;
-    height: 80vh;
+    height: 75vh;
     width: 60vw;
     border: .2em solid black;
 }
@@ -55,6 +55,11 @@ main {
 
 /* ----------------------------------FOOTER--------------------------- */
 footer {
-    background-color: yellowgreen;
-    width: 5rem;
+    background-color: white;
+    font-size: 200%;
+}
+
+#copyright {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
 }
