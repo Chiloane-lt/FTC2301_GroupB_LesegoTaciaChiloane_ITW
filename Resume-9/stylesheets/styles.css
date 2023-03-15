@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-/* ---------------------------------HEADER---------------------------- */
+/* ---------------------------------NAVIGATION---------------------------- */
 
 nav ul li {
     border: .2em solid grey;
@@ -65,3 +65,19 @@ footer {
     writing-mode: vertical-lr;
     text-orientation: mixed;
 }
+
+/* ---------------------------------SCROLL-BAR------------------------ */
+
+::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1C1518;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #66656C;
+    border: .2rem solid #1C1518;
+    border-radius: 1rem;
+  }
