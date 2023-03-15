@@ -44,10 +44,11 @@ main {
 .side {
     height: 75vh;
     width: 65vw;
-    overflow-x: hidden;
     border: .1em solid #012622;
     background-color: white;
-    font-size: 200%;
+    display: grid;
+    align-items: center;
+    font-size: 180%;
     text-align: center;
 }
 
@@ -58,6 +59,7 @@ main {
 
 .resume-title p {
     margin-top: 1rem;
+    color: grey;
 }
 
 
