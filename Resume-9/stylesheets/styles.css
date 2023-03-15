@@ -90,12 +90,18 @@ main {
     padding-bottom: 2rem;
     text-align: center;
 }
-
+ /* Education */
 .education h3, .experience h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
+.education {
+    text-align: center;
+}
+
+
+/* Experience */
 .experience {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -122,15 +128,9 @@ main {
 
 
 /* Skills */
-.skills-wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    column-gap: 1rem;
-    grid-template-areas: 
-        'languages languages coding coding'
-        'lang-skills lang-skills coding-skills coding-skills'
-        'lang-skills lang-skills coding-skills coding-skills';
+
+.skills {
+    text-align: center;
 }
 
 .languages {
@@ -147,6 +147,42 @@ main {
 
 .coding-skills {
     grid-area: coding-skills;
+}
+
+
+/* Projects */
+
+.projects {
+    text-align: center;
+}
+
+/* Contact */
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.contact-text h3, .address, .phone {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .5rem
+}
+
+.contact_input, .submit-button {
+    padding: .5rem;
+}
+
+.submit-button button {
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #49E753;;
 }
 
 /* ----------------------------------FOOTER--------------------------- */
