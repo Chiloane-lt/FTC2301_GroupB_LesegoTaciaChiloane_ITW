@@ -19,19 +19,24 @@ body {
 }
 /* ---------------------------------NAVIGATION---------------------------- */
 
-nav ul li {
+.navigation {
     background-color: white;
     text-align: center;
     font-size: 115%;
     padding: 1rem .2rem;
     border: .1em solid #012622;
+}
 
+.navigation a:link {
+    text-decoration: none;
 }
 
 nav ul {
     display: grid;
     justify-content: center;
 }
+
+
 
 /* ---------------------------------CONTENT--------------------------- */
 
