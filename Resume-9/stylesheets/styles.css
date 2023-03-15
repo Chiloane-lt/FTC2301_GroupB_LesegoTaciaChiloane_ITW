@@ -79,16 +79,22 @@ main {
     margin: 5rem;
 }
 
+#about, #education, #skills, #experience, #projects, #contact {
+    color: #49E753;
+    padding: 2rem;
+}
+
 
 /* ----------------------------------FOOTER--------------------------- */
 footer {
-    background-color: white;
+    background-color: #012622;
     font-size: 200%;
 }
 
 .socials {
     border: .1rem solid #012622;
     background-color: #49E753;
+    padding: .2rem;
 }
 
 .fa-brands {
@@ -99,8 +105,9 @@ footer {
     writing-mode: vertical-lr;
     text-orientation: mixed;
     color: white;
-    background-color: #012622;
     border: .1rem solid #012622;
+    font-size: 70%;
+    padding: .5rem;
 }
 
 /* ---------------------------------SCROLL-BAR------------------------ */
@@ -114,6 +121,6 @@ footer {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #012622;
+    background: #49E753;
     border-radius: 1rem;
   }
