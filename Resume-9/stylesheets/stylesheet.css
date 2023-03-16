@@ -1,126 +1,64 @@
 * {
-  margin: 0px;
-}
-html  {
-  background-color: #ECE5F0;
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 12%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-/* Navigation bar rules */
-.navbar {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-  padding: 0px;
+body {
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: 5rem;
+    display: flex;
 }
 
+
+/* ---------------------Navigation-bar------------------ */
 nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+    width: 8%;
+}
+nav ul {
+    list-style: none;
 }
 
-.special-font, h1.resume-title, .content {
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Raleway', sans-serif;
+.navigation {
+    border: 0.2em solid rgb(82, 80, 80);
 }
 
-i.fa-sharp, #mepic {
-  font-size: 300%;
-  color: #012622;
-  padding: 1rem;
-  width: 7rem;
-  height: 7rem;
-  justify-self: center;
-  background-color: white;
-  border-style: solid;
-  border-color: #ECE5F0;
-  border-width: 0.1rem;
+/* --------------------Main-content---------------------- */
+main {
+    width: 87%;
+    height: 40rem;
+    display: flex;
+    align-items: center;
 }
 
-#name {
-  font-weight: 400;
-  font-size: 100%;
-  text-align: center;
-  background-color: #012622;
-  color: white;
-  padding: 0.5em;
-  padding: 0.5em;
-  
-  padding: 0.5em;  
-  
+/* --------------------Left-side-------------------------- */
+.left {
+    background-color: gray;
+    width: 40%;
+    height: 120%;
 }
 
-#names {
-  background-color: white;
-  font-size: 20%;
-  padding: 1rem;
-}
-/* End of navigation bar */
 
 
-/* Rules for content */
-.content {
-  background-color: white;
-  color: #012622;
-  padding: 5rem;
-  text-align: center;
+/* ---------------------Right-side------------------------- */
+.right {
+    background-color: pink;
+    width: 60%;
+    height: 100%;
+    overflow-y: scroll;
 }
 
-h1.resume-title {
-  font-size: 4.5em;
+/* --------------------Socials-side-bar------------------ */
+footer {
+    width: 5%;
 }
 
-h4.resume-title {
-  color: #548970;
-  font-weight: lighter;
-  margin-bottom: 2.5rem;
-  font-size: 2em;
+/* --------------------Grid-modifiers=------------------- */
+
+.col-span-2 {
+    grid-column: span2;
 }
 
-h2 {
-  margin: 3rem;
+.row-span-9 {
+    grid-row: span 9;
 }
-
-h3 {
-  margin: 1rem;
-}
-
-/* End of content */
-
-
-/* Rules for social bar */
-ul.socials {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  padding: 0;
-}
-
-#copyright {
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-  background-color: #012622;
-  color: white;
-}
-
-i.fa-brands {
-  font-size: 125%;
-  color: #012622;
-  background-color: #E98A15;
-}
-
-i.fa-brands, #copyright {
-  border-style: solid;
-  border-color: #ECE5F0;
-  border-width: 0.1rem;
-  padding: 0.5rem;
-}
-/* End of social bar */
