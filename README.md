@@ -29,6 +29,3 @@ Each folder in the course repo represents a  milestone in learning outcomes.
 
 ## 8. Resume-8 
  Responsive resume website. Responsiveness is achieved using media queries for different breapoints.
-
-## 9. Resume-9 
-Final Resume. Incorporates all features used before.
