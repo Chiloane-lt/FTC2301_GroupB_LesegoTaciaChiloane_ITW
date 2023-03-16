@@ -159,6 +159,10 @@ main {
 
 /* Contact */
 
+.contact {
+    background-image: url(/Resume-9/images/fern-BkrmadtyaKarki.jpg);
+}
+
 .contact-info {
     display: flex;
     justify-content: space-around;
@@ -172,7 +176,12 @@ main {
 
 input, textarea {
     width: 100%;
-    padding: .5rem
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+#contact, label, .contact-text h3, .address h4, .address p, .phone h4, .phone p {
+    color: white;
 }
 
 .contact_input, .submit-button {
@@ -180,7 +189,8 @@ input, textarea {
 }
 
 .submit-button button {
-    padding: 1rem;
+    padding: .5rem;
+    border-radius: .4rem;
     font-weight: 600;
     font-size: 1rem;
     background-color: #49E753;;
